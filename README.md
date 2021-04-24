@@ -71,7 +71,7 @@ http://localhost:8080/ws
 
 ## WSDL file
 
-http://<host>:<port>/ws/countries.wsdl
+http://localhost:8080/ws/countries.wsdl
 
 ### Usage
 
