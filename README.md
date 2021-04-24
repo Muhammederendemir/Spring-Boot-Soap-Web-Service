@@ -2,7 +2,7 @@
 
 > Spring Boot Soap Web Service
 >
-<img src="https://raw.githubusercontent.com/mhmmderen3/spring-boot-tesseract-ocr/master/images/spring-boot-soap-web-service-img.png" alt="Spring Boot Soap Web Service" width="100%" height="100%"/> 
+<img src="https://raw.githubusercontent.com/Muhammederendemir/Spring-Boot-Soap-Web-Service/master/images/spring-boot-soap-web-service-img.png" alt="Spring Boot Soap Web Service" width="100%" height="100%"/> 
 
 ## Prerequisites
 
@@ -40,4 +40,4 @@ http://localhost:8080/ws
 
 ### Usage
 
-<img src="https://raw.githubusercontent.com/mhmmderen3/spring-boot-tesseract-ocr/master/images/postman-ws-ss.png" alt="Postman Request" width="100%" height="100%"/> 
+<img src="https://raw.githubusercontent.com/Muhammederendemir/Spring-Boot-Soap-Web-Service/master/images/postman-ws-ss.png" alt="Postman Request" width="100%" height="100%"/> 
