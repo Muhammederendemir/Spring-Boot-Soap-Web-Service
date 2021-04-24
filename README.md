@@ -25,6 +25,10 @@
 
 http://localhost:8080/ws
 
+### Postman Header
+
+[{"key":"Content-Type","value":"text/xml","description":""}]
+
 ```xml
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
@@ -41,3 +45,26 @@ http://localhost:8080/ws
 ### Usage
 
 <img src="https://raw.githubusercontent.com/Muhammederendemir/Spring-Boot-Soap-Web-Service/master/images/postman-ws-ss.png" alt="Postman Request" width="100%" height="100%"/> 
+
+## Response
+
+```xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getCountryResponse xmlns:ns2="http://com/muhammederendemir/soap">
+            <ns2:country>
+                <ns2:name>Turkey</ns2:name>
+                <ns2:population>83614362</ns2:population>
+                <ns2:capital>Ankara</ns2:capital>
+                <ns2:currency>EUR</ns2:currency>
+            </ns2:country>
+        </ns2:getCountryResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+```
+
+### Usage
+
+<img src="https://raw.githubusercontent.com/Muhammederendemir/Spring-Boot-Soap-Web-Service/master/images/postman-ws-response-ss.png" alt="Postman Request" width="100%" height="100%"/> 
