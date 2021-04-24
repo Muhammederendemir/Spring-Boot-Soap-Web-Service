@@ -68,3 +68,11 @@ http://localhost:8080/ws
 ### Usage
 
 <img src="https://raw.githubusercontent.com/Muhammederendemir/Spring-Boot-Soap-Web-Service/master/images/postman-ws-response-ss.png" alt="Postman Request" width="100%" height="100%"/> 
+
+## WSDL file
+
+http://<host>:<port>/ws/countries.wsdl
+
+### Usage
+
+<img src="https://raw.githubusercontent.com/Muhammederendemir/Spring-Boot-Soap-Web-Service/master/images/wsdl-file-ss.png" alt="Postman Request" width="100%" height="100%"/> 
