@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  soap-service:
+    image: soap-web-service:0.0.1
+    container_name: soap-service
+    restart: ${RESTART_POLICY}
+    environment:
+      - SERVER_PORT
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}

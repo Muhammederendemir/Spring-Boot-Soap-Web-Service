@@ -6,18 +6,30 @@
 
 ## Prerequisites
 
-* Java 11
+* Java 8
 * Maven 3.3+
+* Docker 19.03+
+* Docker Compose 1.25+
 
 ## Used Technologies
 
 * Spring Boot 2.4.3
 * Spring Boot Web
+* Spring Boot Test
 * Maven Jib Plugin
 * Maven Clean Plugin
-* Spring Boot Test
 * jaxb2-maven-plugin
 * wsdl4j
+
+## Installation
+
+```sh
+./mvnw compile jib:dockerBuild
+```
+
+```sh
+docker-compose up -d 
+```
 
 ## Postman Request
 
